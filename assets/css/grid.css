@@ -1,0 +1,20 @@
+.grid {
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+}
+.grid-9x9 {
+    grid-template-columns: repeat(9, 40px);
+    grid-template-rows: repeat(9, 40px);
+}
+.grid-6x6 {
+    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: repeat(6, 50px);
+}
+.cell {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}

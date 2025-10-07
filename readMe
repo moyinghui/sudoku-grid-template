@@ -1,0 +1,25 @@
+Neo Sudoku — HTML/CSS Mock Website
+Collaborator: Hui Zhou
+Live Demo: Open with VS Code Live Server → index.html
+Submission includes: 8 pages (Home, Selection, Hard, Easy, Rules, High Scores, Login, Register)
+Writeup
+1. What was the most challenging piece of this assignment?
+The most challenging part was creating the Sudoku grids using only HTML and CSS without any JavaScript.
+Designing the 9×9 and 6×6 grids to align perfectly using CSS Grid required careful control of borders and spacing.
+Another challenge was making the navigation bar fixed and consistent across all pages while keeping it responsive.
+2. What decisions did you make when you made your site mobile-friendly?
+I used CSS @media queries to adjust layout and padding for smaller screens.
+For iPhone 12 size, the navbar moves to the bottom of the screen so that the content area has more vertical space.
+Text and buttons automatically scale using relative units like vw and clamp().
+3. What did you take into account when you developed the design of your website? Is there anything you’re particularly proud of?
+I aimed for a clean, modern dark theme inspired by puzzle apps.
+I imported the Inter font from Google Fonts and used soft gradients with neon-style colors for visual contrast.
+I am proud that every page looks consistent, and the Sudoku grid looks realistic even without JavaScript.
+4. Given more time or resources, what additional features would you add to your site in the future?
+I would make the Sudoku grids interactive with validation logic, timers, and win detection using JavaScript.
+I’d also like to add user profiles that track progress and display personal best times on the leaderboard.
+5. How many hours did you spend on this assignment?
+Around 8–10 hours in total, including design, HTML structure, CSS grid setup, and testing.
+(Optional) Assumptions and references
+No external code was used except for Google Fonts and CSS pseudo-elements.
+All layout and styling were written manually using plain HTML and CSS.

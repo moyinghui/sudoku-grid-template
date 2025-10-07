@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neo Sudoku | Register</title>
+  <link rel="stylesheet" href="../assets/css/common.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="inner">
+      <div class="brand">Neo Sudoku</div>
+      <div class="links">
+        <a href="/index.html">Home</a>
+        <a href="/selection/index.html">Select</a>
+        <a href="/games/hard/index.html">Hard</a>
+        <a href="/games/easy/index.html">Easy</a>
+        <a href="/rules/index.html">Rules</a>
+        <a href="/highscores/index.html">Scores</a>
+        <a href="/login/index.html">Login</a>
+        <a href="/register/index.html">Register</a>
+
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1>Create a New Account</h1>
+    <p class="subtle">Register to track your Sudoku progress</p>
+
+    <form class="card" style="max-width:400px;margin:auto;margin-top:30px;">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Choose a username" required>
+
+      <label for="password" style="margin-top:16px;">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter a password" required>
+
+      <label for="verify" style="margin-top:16px;">Verify Password</label>
+      <input type="password" id="verify" name="verify" placeholder="Re-enter your password" required>
+
+      <button type="submit" class="button" style="margin-top:20px;width:100%;">Register</button>
+    </form>
+
+    <p class="subtle" style="text-align:center;margin-top:18px;">
+      Already have an account? <a href="../login/index.html">Login here</a>
+    </p>
+  </main>
+</body>
+
+</html>
